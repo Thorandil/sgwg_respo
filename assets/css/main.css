@@ -1,0 +1,60 @@
+html, body {
+	background:white;
+	color:white;
+	scrollbar-base-color: black;
+	scrollbar-arrow-color: white;
+	height:98%;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    background-color: white;
+    width: 69.5em;
+    padding: 50px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-bullets{
+    list-style: none;
+}
+
+/*Rewrite some styles on bootstrap */
+.card{
+    width: 18rem;
+    margin-top: 1em;
+    background-color: black;
+    color: white;
+}
+
+.btn-primary{
+    background-color: black !important;
+    color: blue !important;    
+}
+
+.container{
+    background-color: black;
+}
+
+.foooter{
+    background-color: white;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+
+/*Lightbox - nemazat*/
+#profile-grid { overflow: auto; white-space: normal; }
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
